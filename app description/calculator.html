@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <style>
+        
+    </style>
+    <title>Calculator app</title>
+</head>
+<body>
+    <nav class="navbar" style="background-color: #0c1210;">
+        <div class="leftNav">
+            <div class="logo">
+                <img src="/img/4.png" alt="Icon" id="img">
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../index.html">Home</a></li>
+                <li class="nav-item"><a href="../about.html">About</a></li>
+                <li class="nav-item"><a href="../blog.html">Blog</a></li>
+                <li class="nav-item"><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="rightNav">
+            <input type="text" id="search">
+            <button id="search-btn">Search</button>
+        </div>
+    </nav>
+
+    <div class="app-container background">
+        <center> <a href="https://www.mediafire.com/file/teagg6qgva2fycc/Calculator_by_fardin.rar/file"><button class="btn-black download-page-button">Go to Download Page</button></a> </center>
+
+        <!-- <h1 class="wa-black">Screenshots slide</h1> -->
+        <div class="imageSlider" style="max-width:500px">
+            <img class="mySlides" src="../screenshots/calculator/1.png" style="width:65%">
+            <img class="mySlides" src="../screenshots/calculator/2.png" style="width:65%">
+            <img class="mySlides" src="../screenshots/calculator/3.png" style="width:65%">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 1000); // Change image every 2 seconds
+          }
+          </script>
+
+        <!-- <hr> -->
+
+        <div class="description">
+            <div class="description-child">
+                <h1 class="wa-black">How to Download</h1>
+                <p class="desPara">Click on the download button given above, which will redirect you to a media fire page.Click on the download button. Extract the .rar file which was downloaded. Then open the .exe file. Click on 'Yes' if any permission is asked. Click on next on the Installer window. Click on install. Done! Now open the app by either clicking on the start menu or on clicking on the icon on the desktop.</p>  
+            </div>
+            <div class="description-child">
+                <h1 class="wa-black">Usage of the app</h1>
+                <p class="desPara">To use the app is pretty simple. Open the app by double clicking on the icon on your desktop. You can also open the app by clicking on the start button on the bottom left corner of your screen and then clicking on the app. First, a command prompt window will open. Wait for a while till the app opens.
+                    <br>
+                    Click on any number on the screen which will be written on the disaply. Click on the operation to perform and the click on the equals sign which will display the output.
+                    </p>
+            </div>
+            <div class="description-child">
+                <h1 class="wa-black">Overview of the app</h1>
+                <p class="desPara">This app completely resembles the normal calculator in windows OS, except that this app has a little bigger window with bigger buttons. This feature proves efficient as it will be easier to click on bigger buttons.</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&copy; Copyright 2015 codetocode.netlify.app</p>
+        </div>
+    </footer>
+</body>
+</html>

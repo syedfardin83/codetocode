@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <nav class="navbar" style="background-color: #0c1210;">
+        <div class="leftNav">
+            <div class="logo">
+                <img src="../img/4.png" alt="Icon" id="img">
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../index.html">Home</a></li>
+                <li class="nav-item"><a href="../about.html">About</a></li>
+                <li class="nav-item"><a href="../blog.html">Blog</a></li>
+                <li class="nav-item"><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="rightNav">
+            <input type="text" id="search">
+            <button id="search-btn">Search</button>
+        </div>
+    </nav>
+
+    <div class="app-container background">
+        <center><a href="https://customquiz000.netlify.app/" target="blank_" class="btn-black dwonload-page-button">Go to App</button></a></center>
+        <div class="imageSlider quiz-image-slider" style="max-width:500px">
+            <img class="mySlides quizSlide" src="../screenshots/quiz/1.png">
+            <img class="mySlides quizSlide" src="../screenshots/quiz/2.png">
+            <img class="mySlides quizSlide" src="../screenshots/quiz/3.png">
+            <img class="mySlides quizSlide" src="../screenshots/quiz/4.png">
+            <img class="mySlides quizSlide" src="../screenshots/quiz/5.png">
+            <img class="mySlides quizSlide" src="../screenshots/quiz/6.png">
+            
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 1000); // Change image every 2 seconds
+          }
+          </script>
+
+          <div class="description quiz-description">
+              <div class="description-child">
+                  <h1 class="wa-black">Overview of the app</h1>
+                  <p class="desPara">There will be 6 questions asked and 4 options will be provided for each question. For every correct answer, you will be awarded 10 points, and for every wrong answer, there will be no marks awarded. You can see your score the whole time in the top right corner of the page.
+                    <br><br>
+                    After you have answered all the questions, You will get an end screen where you can save your score by writing your name and clicking on save. Now please note that the highscores are stored on local storage and not on the web. You cannot see your saved highscore on any other device. Based on the device you are using, your saved high scores will be deleted after a certain time.
+                    <br><br>
+                    Now there are only about 20 questions in total and any 6 random questions will be show each time you play the game.
+                    <br><br>
+                    Please give your comments and suggestions to me in the 'contact us' section.</p>
+              </div>
+          </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy; Copyright 2015 codetocode.netlify.app</p>
+        </div>
+    </footer>
+</body>
+</html>
