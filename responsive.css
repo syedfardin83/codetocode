@@ -1,0 +1,101 @@
+@media(max-width:1085px){
+    /* .headin{
+        color: red;
+    } */
+
+    .loo{
+        display: none;
+    }
+
+    .white-box{
+        padding: 15px 30px;
+        margin: 20px 20px;
+    }
+
+    /* #search{
+        display: none;
+    }
+
+    #search-btn{
+        display: none;
+    }
+
+    .nav-list {
+        
+        margin-left: 0px;
+        
+    }
+
+    .nav-item {
+        font-family: "Poppins", sans-serif;
+        padding: 20px 17px;
+        font-size: 1.1rem;
+        padding: 20px 24px;
+        margin
+    } */
+
+    #img{
+        display: none;
+    }
+
+    .leftNav{
+        width: 100%;
+    }
+
+    .rightNav{
+        width: 0%;
+    }
+
+    #password-generator-img{
+        width: 70%;
+        margin-left: 20px;
+    }
+
+    .quizSlide{
+        width: 345px;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    .nav-list{
+        display: block;
+    }
+
+    .nav-bar{
+        display: block;
+    }
+
+    #search{
+        display: none;
+    }
+
+    #search-btn{
+        display: none;
+    }
+
+    .rightNav{
+        margin-bottom: 50px;
+    }
+
+
+
+    .nav-item{
+        /* display: none; */
+    }
+
+
+
+    #clock-logo{
+        /* width: 20%; */
+        /* src: url("https://cdn2.iconfinder.com/data/icons/pittogrammi/142/10-512.png"); */
+    }
+
+    .blog-box{
+        margin-top: 5%;
+        /* margin-left: ; */
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+}

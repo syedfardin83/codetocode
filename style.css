@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin-left: 78px;
+    /* justify-content: center; */
+}
+
+.navbar {
+    /* background-color: black; */
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-item {
+    font-family: "Poppins", sans-serif;
+    padding: 20px 19px;
+    font-size: 1.1rem;
+    padding: 20px 24px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.leftNav {
+    width: 50%;
+    display: flex;
+}
+
+.rightNav {
+    width: 50%;
+
+    /* display: flex; */
+    /* background-color: black; */
+    /* justify-content: center; */
+    align-items: center;
+    text-align: right;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+}
+
+.logo img {
+    width: 189%;
+    border: 3px solid white;
+    border-radius: 116px;
+    margin: 5px 5px;
+    margin-left: 60px;
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    /* display: flex;
+
+    justify-content: center;
+    align-items: center; */
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.firstSection {
+    height: 100%;
+    color: white;
+    padding-bottom: 1px;
+}
+
+.headin {
+    /*display: flex; */
+    text-align: center;
+    font-family: 'Poppins', 'Courier New', Courier, monospace;
+    position: relative;
+    top: 15px;
+    font-size: 42px;
+}
+
+#image {
+    width: 54%;
+    margin-left: 12px;
+    margin-top: 13px;
+}
+
+.item-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.box {
+    display: flex;
+    margin-top: 54px;
+    padding-bottom: 10px;
+}
+
+.firstHalf {
+    width: 20%;
+}
+
+.secondHalf {
+    width: 80%;
+}
+
+.item-content {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 7px;
+    color: black;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.white-box {
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 63px 130px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    /* display: flex; */
+}
+
+#aabb {
+    font-size: 25px;
+    text-align: center;
+}
+
+.ccaa {
+    margin-top: 5px;
+    font-size: large;
+}
+
+.footer {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logos {
+    display: flex;
+}
+
+
+.loo {
+    width: 100px;
+    padding: 30px 81px;
+
+}
+
+.log {
+    width: 25%;
+}
+
+.python {
+    border-right: 1px solid gray;
+}
+
+.HTML {
+    border-right: 1px solid gray;
+}
+
+.CSS {
+    width: 72px;
+    border-right: 1px solid gray;
+}
+
+.JS {
+    position: relative;
+    top: 2px;
+}
+
+.wa {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.secondSection{
+    margin-top: 35px;
+}
+
+#paintAppIcon{
+    width: 58%;
+    margin-left: 30px;
+}
+
+#passwordGeneratorIcon{
+    width: 81%;
+}
+
+.thirdSection{
+    margin-top: 100px;
+}
+
+#quizLogo{
+    width: 86%;
+}
+
+.download-button{
+    text-decoration: none;
+    color: black;
+}
+
+.app-container{
+    padding-bottom: 50px;
+}
+
+.mySlides{
+    display:none;
+    margin-left: 20px;
+}
+
+.wa-black{
+    font-family: 'Poppins', sans-serif;
+    /* text-align: center; */
+    color: white;
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+}
+
+.btn-black{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px 7px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 6px;
+}
+
+.btn-black:hover {
+    color: black;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.download-page-button{
+    margin-bottom: 27px;
+    padding: 20px;
+    font-size: 18px;
+
+}
+
+.imageSlider{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.desPara{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.description-child{
+    margin-top: 56px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.quiz-image-slider{
+    min-height: 100px;
+    max-height: 100px;
+    margin-top: 40px;
+}
+
+.quiz-description{
+    margin-top: 264px;
+}
+
+.app-container-about{
+    border-top: 1px solid white;
+}
+
+.quizSlide{
+    width: 500px;
+}
+
+.contact-us-list{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.contact-container{
+    padding-bottom: 800px;
+}
+
+.checkbtn{
+    color: white;
+    font-size: 30px;
+    float: right;
+    /* margin-left: 40px; */
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.blog-box{
+    /* position: absolute; */
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-right: 13%;
+    border-radius: 5px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    /* padding-top: 15px; */
+    background-color: white;
+    /* box-shadow: inset ; */
+    box-shadow: 1px 2px 15px blue;
+
+}
+
+.blog-first-half{
+    font-size: 30px;
+    font-weight: bold;
+}

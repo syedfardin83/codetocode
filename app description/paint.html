@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+    <title>PaintX</title>
+</head>
+<body>
+    <nav class="navbar" style="background-color: #0c1210;">
+        <div class="leftNav">
+            <div class="logo">
+                <img src="/img/4.png" alt="Icon" id="img">
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="../index.html">Home</a></li>
+                <li class="nav-item"><a href="../about.html">About</a></li>
+                <li class="nav-item"><a href="../blog.html">Blog</a></li>
+                <li class="nav-item"><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="rightNav">
+            <input type="text" id="search">
+            <button id="search-btn">Search</button>
+        </div>
+    </nav>
+
+    <div class="app-container background">
+        <center><a href="https://www.mediafire.com/file/05ek0qzpijupodz/PaintX_setup.rar/file"><button class="btn-black download-page-button">Go to Download Page</button></a></center>
+        <div class="imageSlider" style="max-width:500px">
+            <img class="mySlides" src="../screenshots/Paint app/1.png" style="width:65%">
+            <img class="mySlides" src="../screenshots/Paint app/2.png" style="width:65%">
+            <img class="mySlides" src="../screenshots/Paint app/3.png" style="width:65%">
+            <img class="mySlides" src="../img/paint-removebg.png" style="width:44%">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+
+        <div class="description">
+            <div class="description-child">
+                <h1 class="wa-black">How to Download</h1>
+                <p class="desPara">First, click on the 'Go to Dwonload Page' button above. You will be redirected to a medifire page. Click on 'Download' and wait till the file is downloaded. Open and extract the file using WinRar. If you don't have it on your PC, click <a href="https://www.win-rar.com/download.html?&L=0">here</a> to download it. <br> You will get a setup file after extracting the downloaded file. Open the setup file by double clicking on it. Grant the permission if asked. Click on 'Next' and click on install. Done! PaintX is installed on your PC. Click on the Windows button on your keyboard, or go to Desktop to find PaintX icon. Open PaintX by double-clicking on the icon.</p>
+            </div>
+
+            <div class="description-child">
+                <h1 class="wa-black">Usage of the App</h1>
+                <p class="desPara">Using this app is very simple. <br>Click on any one of the colors in the color pallate. <br>You can also use the Colors button to choose colors. <br>Click on the Eraser button to erase your drawing. <br>Use the Size section to adjust the size of the eraser or paint brush. <br>Click on the clear button to clear your drawing canvas. <br>Click on the save button to save your drawing.</p>
+            </div>
+
+            <div class="description-child">
+                <h1 class="wa-black">Overview Of The App</h1>
+                <p class="desPara">This app is a painting app, just like Microsoft Paint. The only Difference is the User Interface. You can Paint with any color you want, and also save your drawing to share it with your friends.</p>
+            </div>
+        </div>  
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy; Copyright 2015 codetocode.netlify.app</p>
+        </div>
+    </footer>
+</body>
+</html>
