@@ -361,3 +361,9 @@ a{
     font-size: 30px;
     font-weight: bold;
 }
+
+#textUtilsLogo{
+    width: 46%;
+    margin-left: 22px;
+    border-radius: 30px;
+}
