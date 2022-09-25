@@ -377,3 +377,11 @@ a{
 .disqus_box_fardin{
     padding-top: 50px;
 }
+
+#clock-logo{
+    width: 60%;
+}
+
+#todoLogo{
+    width: 56%; margin-left: 11px;
+}
